@@ -2,7 +2,7 @@ name: switcher
 description: A simple implementation of imitating an Android marquee, which can be used to scroll up
   and down advertisements, and there is a marquee for Android to scroll left and right.
 version: 1.0.0+1
-homepage: https://github.com/changleibox/flutter_switcher
+homepage: https://github.com/changleibox/switcher
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
