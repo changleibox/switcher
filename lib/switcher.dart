@@ -97,7 +97,7 @@ class _SwitcherState extends State<Switcher> {
   double _scrollOffset = 0;
   Timer _timer;
 
-  _initalizationElements() {
+  _initializationElements() {
     _childCount = 0;
     if (widget.children != null) {
       _childCount = widget.children.length;
@@ -204,7 +204,7 @@ class _SwitcherState extends State<Switcher> {
   @override
   void initState() {
     super.initState();
-    _initalizationElements();
+    _initializationElements();
     _initializationScroll();
     _controller.addListener(_onScrollListener);
   }
@@ -214,7 +214,7 @@ class _SwitcherState extends State<Switcher> {
     var childrenChanged = widget.children?.length != oldWidget.children?.length;
     if (widget._scrollDirection != oldWidget._scrollDirection ||
         childrenChanged) {
-      _initalizationElements();
+      _initializationElements();
       _initializationScroll();
     }
     super.didUpdateWidget(oldWidget);
